@@ -1036,13 +1036,13 @@
             </div>
 
 
-            <a href="#" class="menu-item">
+            <a href="<?= base_url('admin/instansi') ?>" class="menu-item">
                 <i class="bi bi-building"></i>
                 <span>Instansi</span>
             </a>
 
 
-            <a href="#" class="menu-item">
+            <a href="<?= base_url('admin/petugas') ?>" class="menu-item">
                 <i class="bi bi-person"></i>
                 <span>Petugas</span>
             </a>
@@ -1053,31 +1053,31 @@
             </div>
 
 
-            <a href="#" class="menu-item">
+            <a href="<?= base_url('admin/pengaturan-kelompok') ?>" class="menu-item">
                 <i class="bi bi-people"></i>
                 <span>Pengaturan Kelompok</span>
             </a>
 
 
-            <a href="#" class="menu-item">
+            <a href="<?= base_url('admin/pengaturan-layar') ?>" class="menu-item">
                 <i class="bi bi-display"></i>
                 <span>Pengaturan Layar</span>
             </a>
 
 
-            <a href="#" class="menu-item">
+            <a href="<?= base_url('admin/pengaturan-hari-libur') ?>" class="menu-item">
                 <i class="bi bi-calendar-x"></i>
                 <span>Pengaturan Hari Libur</span>
             </a>
 
 
-            <a href="#" class="menu-item">
+            <a href="<?= site_url('admin/log-user-login') ?>" class="menu-item">
                 <i class="bi bi-clock-history"></i>
                 <span>Log User Login</span>
             </a>
 
 
-            <a href="#" class="menu-item">
+            <a href="<?= site_url('admin/absensi-petugas') ?>" class="menu-item">
                 <i class="bi bi-person-check"></i>
                 <span>Absensi Petugas</span>
             </a>
