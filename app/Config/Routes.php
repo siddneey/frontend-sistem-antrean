@@ -27,3 +27,7 @@ $routes->get('admin/pengaturan-hari-libur', 'Admin::pengaturanHariLibur');
 $routes->get('admin/log-user-login', 'Admin::logUserLogin');
 $routes->get('admin/absensi-petugas', 'Admin::absensiPetugas');
 
+
+$routes->get('/petugas', 'Petugas::index');
+
+$routes->get('display', 'Display::index');

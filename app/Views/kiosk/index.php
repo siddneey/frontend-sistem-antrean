@@ -243,36 +243,35 @@
         }
 
 
-        .header-logo {
-
+       .header-logo {
             position: relative;
-
             width: 72px;
-
             height: 72px;
-
             min-width: 72px;
+            flex-shrink: 0;
 
-            border-radius: 18px;
-
-            background:
-                white;
-
-            color:
-                var(--navy);
+            background: transparent;
+            box-shadow: none;
+            border-radius: 0;
 
             display: flex;
-
             align-items: center;
-
             justify-content: center;
 
+            overflow: hidden;
             font-size: 34px;
 
-            box-shadow:
-                0 8px 25px
-                rgba(0, 0, 0, 0.2);
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+        }
 
+        /* Gambar logo Kota Tangerang */
+        .header-logo img {
+            display: block;
+            width: 48px;
+            height: 48px;
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
         }
 
 
@@ -2495,10 +2494,12 @@
             <div class="header-content">
 
 
+                <!-- Logo Kota Tangerang -->
                 <div class="header-logo">
-
-                    <i class="bi bi-buildings"></i>
-
+                    <img
+                        src="<?= base_url('assets/images/logokota.png') ?>"
+                        alt="Logo Kota Tangerang"
+                    >
                 </div>
 
 
